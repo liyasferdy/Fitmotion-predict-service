@@ -10,11 +10,10 @@ COPY requirements.txt .
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN pip install onnxruntime
+
 # Copy the rest of the application code
 COPY . .
-
-# Set environment variable for Google Cloud credentials
-# ENV GOOGLE_APPLICATION_CREDENTIALS=/app/service-account-key.json
 
 # Set the PORT environment variable
 ENV PORT 8080
