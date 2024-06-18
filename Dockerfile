@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set environment variable for Google Cloud credentials
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/service-account-key.json
+# ENV GOOGLE_APPLICATION_CREDENTIALS=/app/service-account-key.json
 
 # Set the PORT environment variable
 ENV PORT 8080
