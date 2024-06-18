@@ -13,7 +13,6 @@ import os
 app = FastAPI()
 
 # Set up Google Cloud Storage client
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service-account-key.json"
 client = storage.Client()
 # bucket_name = "fitmotiion-imu-log"
 bucket_name = "fitmotion-imu-sensor"
