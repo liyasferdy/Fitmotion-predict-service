@@ -11,6 +11,7 @@ python-multipart = "*"
 pandas = "*"
 onnxruntime = "*"
 numpy = "1.26.4"
+scipy = "*"
 
 [dev-packages]
 
