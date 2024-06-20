@@ -12,6 +12,9 @@ pandas = "*"
 onnxruntime = "*"
 numpy = "1.26.4"
 scipy = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
